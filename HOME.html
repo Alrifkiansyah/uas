@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> FIAN NET</title>
+  <link rel="shortcut icon" 
+        href="./pp.jpg" type="image/x-icon">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap"rel="stylesheet" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wifi-navbar" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img src="logo-Fian-NET-removebg-preview.png" alt="WiFiNet Logo" style="height: 40px; display: inline-block; margin-top: -10px; margin-right: 5px;">
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="wifi-navbar">
+			<ul class="nav navbar-nav">
+				<li><a href="#home"><span class="glyphicon glyphicon-home"></span> Beranda</a></li>
+				<li><a href="#paket"><span class="glyphicon glyphicon-shopping-cart"></span> Paket Internet / Langganan</a></li>
+				<li><a href="#bantuan"><span class="glyphicon glyphicon-info-sign"></span> Bantuan</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Masuk</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<br><br>
+   <section id="home">
+  <div class="container text-center">
+    <h1 class="display-4" style="font-family: 'Exo 2', sans-serif; font-size: 48px;">Selamat Datang di <strong>FIAN NET</strong></h1>
+    <p class="lead" style=" font-family: Open Sans; font-size:  20px; max-width: 800px; margin: 20px auto;">
+  Terima kasih telah mengunjungi FIAN NET, penyedia layanan internet lokal yang siap menghubungkan Anda dengan dunia tanpa batas.
+
+Di era digital seperti sekarang, koneksi internet bukan lagi sekadar kebutuhan tambahan—melainkan bagian penting dari kehidupan sehari-hari, baik untuk bekerja, belajar, hiburan, maupun berkomunikasi. Kami memahami betapa pentingnya koneksi yang cepat, stabil, dan terpercaya.
+
+Oleh karena itu, FIAN NET hadir sebagai solusi terbaik untuk Anda yang menginginkan layanan internet berkualitas tinggi, harga terjangkau, dan didukung oleh tim teknis profesional yang siap membantu kapan saja.
+</p>
+
+    <a href="#paket" class="btn btn-primary btn-lg">
+      <span class="glyphicon glyphicon-globe"></span> Lihat Paket Internet
+    </a>
+  </div>
+</section>
+
+   
+</div>
+<section id="paket">
+<Main>
+  <div class="container">
+  <h2 class="text-center"><span class="glyphicon glyphicon-globe"></span> Paket Internet FIAN NET</h2>
+  <p class="text-center">Internet cepat, stabil, dan terjangkau untuk semua kebutuhan!</p>
+  <div class="row">
+
+    <div class="col-sm-4">
+      <div class="panel panel-silver">
+        <div class="panel-heading text-center">Paket Silver</div>
+        <div class="panel-body text-center">
+          <ul>
+            <li>Kecepatan: 8 Mbps</li>
+            <li>Unlimited Kuota</li>
+            <li>Pemasangan Rp.200.000</li>
+            <li>Gratis Router WiFi</li>
+          </ul>
+          <button class="btn btn-daftar" data-toggle="modal" data-target="#formModal" data-paket="Paket Silver">Daftar Sekarang</button>
+        </div>
+        <div class="panel-footer text-center">Rp 170.000 / bulan</div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="panel panel-gold">
+        <div class="panel-heading text-center">Paket Gold</div>
+        <div class="panel-body text-center">
+          <ul>
+            <li>Kecepatan: 15 Mbps</li>
+            <li>Unlimited Kuota</li>
+            <li>Pemasangan Rp.150.000</li>
+            <li>Gratis Router WiFi</li>
+          </ul>
+          <button class="btn btn-daftar" data-toggle="modal" data-target="#formModal" data-paket="Paket Gold">Daftar Sekarang</button>
+        </div>
+        <div class="panel-footer text-center">Rp 250.000 / bulan</div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="panel panel-platinum">
+        <div class="panel-heading text-center">Paket Platinum</div>
+        <div class="panel-body text-center">
+          <ul>
+            <li>Kecepatan: 20 Mbps</li>
+            <li>Unlimited Kuota</li>
+            <li>Pemasangan Rp.70.000</li>
+            <li>Gratis Router WiFi</li>
+          </ul>
+          <button class="btn btn-daftar" data-toggle="modal" data-target="#formModal" data-paket="Paket Platinum">Daftar Sekarang</button>
+        </div>
+        <div class="panel-footer text-center">Rp 280.000 / bulan</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div>
+  
+</div>
+
+<!-- Fomulir Pendaftaran -->
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header bg-primary text-white">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="formModalLabel">
+          <span class="glyphicon glyphicon-pencil"></span> Formulir Pendaftaran
+        </h4>
+      </div>
+
+      <div class="modal-body">
+        <form action="?" method="post">
+          <input type="hidden" name="paket" id="inputPaket">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Lengkap">
+          </div>
+          <div class="form-group">
+						<label for="No.">No Hp</label>
+						<input type="number" class="form-control" name="No" placeholder="Masukan No. Hp">
+						</div>
+          <div class="form-group">
+					<label for="prodi"> Paket Internet</label>
+					<select class="form-control" name="prodi">
+						<option value="">-- Paket Internet --</option>
+						<option value="Paket Silver">Rp.170.000</option>
+						<option value="Paket Gold">Rp.250.000</option>
+						<option value="Paket Platinum">Rp.280.000</option>
+					</select>
+				</div>
+          <div class="form-group">
+            <label for="alamat">Alamat</label>
+            <textarea class="form-control" name="alamat" placeholder="Masukkan Alamat Lengkap"></textarea>
+          </div>
+         <div class="form-group">
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" required>
+      Saya telah membaca dan menyetujui <a href="#" data-toggle="modal" data-target="#syaratModal">Syarat dan Ketentuan</a> layanan FIAN NET.
+    </label>
+  </div>
+</div>
+          <div class="form-group text-right">
+            <button type="submit" class="btn btn-primary">Simpan</button>
+            <button type="reset" class="btn btn-default">Batal</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Modal Syarat dan Ketentuan -->
+<div class="modal fade" id="syaratModal" tabindex="-1" role="dialog" aria-labelledby="syaratModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header bg-info text-white">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="syaratModalLabel">Syarat dan Ketentuan</h4>
+      </div>
+
+      <div class="modal-body" style="max-height: 400px; overflow-y: auto;">
+        <p><strong>1. Pembayaran:</strong> Tagihan dibayar setiap awal bulan. Keterlambatan akan dikenai denda.</p>
+        <p><strong>2. Penggunaan Wajar:</strong> Penggunaan layanan harus sesuai dengan kebijakan penggunaan wajar.</p>
+        <p><strong>3. Perubahan Paket:</strong> Pelanggan dapat mengubah paket dengan pemberitahuan minimal 3 hari sebelumnya.</p>
+        <p><strong>4. Garansi:</strong> Kami tidak bertanggung jawab atas kerusakan akibat penggunaan perangkat yang tidak sesuai.</p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+<section id="bantuan" style="padding: 60px 0;">
+  <div class="container">
+    <h2 class="text-center"><span class="glyphicon glyphicon-info-sign"></span> Bantuan & FAQ</h2>
+    <p class="text-center">Temukan jawaban atas pertanyaan dan kendala umum seputar layanan FIAN NET.</p>
+    
+    <div class="panel-group" id="faq-accordion">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq1">
+              Bagaimana cara mendaftar layanan FIAN NET?
+            </a>
+          </h4>
+        </div>
+        <div id="faq1" class="panel-collapse collapse">
+          <div class="panel-body">
+            Klik tombol “Daftar Sekarang” di halaman paket internet, isi formulir, dan kami akan segera menghubungi Anda.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq2">
+              Apa yang harus dilakukan jika internet lambat atau tidak terkoneksi?
+            </a>
+          </h4>
+        </div>
+        <div id="faq2" class="panel-collapse collapse">
+          <div class="panel-body">
+            Coba restart router, periksa kabel dan sinyal. Jika belum normal, hubungi kami melalui WhatsApp atau telepon.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq3">
+              Bagaimana cara membayar tagihan bulanan?
+            </a>
+          </h4>
+        </div>
+        <div id="faq3" class="panel-collapse collapse">
+          <div class="panel-body">
+            Pembayaran dilakukan awal bulan via transfer bank atau dompet digital. Info rekening dikirim melalui WA/email.
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#faq-accordion" href="#faq4">
+              Apakah paket internet FIAN NET unlimited?
+            </a>
+          </h4>
+        </div>
+        <div id="faq4" class="panel-collapse collapse">
+          <div class="panel-body">
+            Ya, semua paket unlimited dengan kebijakan penggunaan wajar (FUP).
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</Main>
+</section>
+	<script src="bootstrap/js/jQuery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
